@@ -1,0 +1,460 @@
+<!----------------- --------------------------------------------------------------   --------- ------------------------------------------------------------------------>
+<!-------------------- -----------------------------------------------------------   ------------------------ --------------------------------------------------------->
+<!-------------------- -----------------------------------------------------------   ------------------------- -------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link href="./fontawesome-free-6.1.1/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>English Pro </title>
+    <!-- styles -->
+    <!-- <link href="<?php echo web_root;?>plugins/homepage/assets/css/bootstrap.css" rel="stylesheet"> -->
+    <link href="<?php echo web_root;?>plugins/homepage/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo web_root;?>plugins/homepage/assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo web_root;?>plugins/homepage/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="<?php echo web_root;?>plugins/homepage/assets/css/flexslider.css" rel="stylesheet">
+    <!-- <link href="<?php echo web_root;?>plugins/homepage/assets/css/style.css" rel="stylesheet"> -->
+    <link href="<?php echo web_root;?>plugins/homepage/assets/color/default.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
+
+    <!-- fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+  <!-- -------------------------------------Header----------------------------------------- -->
+  <section class="top">
+        <div class="container">
+            <div class="row">
+                
+                <!-- ----------Logo---------- -->
+                <div class="top-logo">
+                    <a href="index.php"> <img src="./images/logo.png" alt=""alt="Live online classes" loading="lazy" typeof="foaf:Image" class="img-responsive"> </a>
+                </div>
+
+                <!-- ----------MENU---------- -->
+                <div class="top-menu-items">
+                    
+                        <!-- ----------GIỚI THIỆU---------- -->
+                        <li> <a href="introduce.html">Giới thiệu</a>
+                            <!-- <ul class="top-menu-item">
+                                <li> <a href="">VỀ CHÚNG TÔI</a> </li>
+                                <li> <a href="">LIÊN HỆ</a> </li>
+                            </ul> -->
+                        </li>
+
+                        <!-- ----------DANH MỤC HỌC---------- -->
+                        <li> <a href="<?php echo web_root; ?>index.php?q=lesson"><i class="icon-list-alt"></i>Học</a>
+                        </li>
+
+                        <!-- ----------DANH MỤC KIỂM TRA---------- -->
+                        <li> <a href="<?php echo web_root; ?>index.php?q=exercises"><i class="icon-list-alt"></i>Kiểm tra</a>
+                        </li>
+
+                        <!-- ----------TẢI VỀ---------- -->
+                        <li> <a href="<?php echo web_root; ?>index.php?q=download"><i class="icon-download"></i>Tải về</a> </li>
+
+                        <!-- ----------TỪ ĐIỂN---------- -->
+                        <li> <a href="dictionary.html" style="color: red;">Từ điển</a>
+                        
+                        <!-- ----------ĐĂNG XUẤT---------- -->
+                        <div class="logsign-top">
+                            <li>
+                                <!-- <a href="login.html">ĐĂNG NHẬP</a> -->
+                                <a href="logout.php"><i class="icon-logout"></i> Logout</a>
+                            </li>
+                            <li>
+                                <!-- <a href="sign-in.html">ĐĂNG KÍ</a> -->
+                            </li>
+                        </div>
+                        <!-- ----------Tìm kiếm---------- -->
+                        <div class="top-menu-icons">
+                                <li>
+                                    <input type="text" placeholder="Tìm kiếm">
+                                    <i class="fas fa-search"></i>
+                                </li>
+
+                                <li>
+                                    <a href="dictionary.php">
+                                        <i class="fa-solid fa-book"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                <!-- <a href="login.html">ĐĂNG NHẬP</a> -->
+                                <a href="logout.php"><i class="icon-logout"></i> Logout</a>
+                            </li>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+  </section>
+
+    <!-- -------------------------------------Courses------------------------------------------ -->
+    <section class="courses">     
+        <div class="container">
+            <div class="row2">
+
+                <div class="course-item">
+                    <div class="login-right-top-text">
+                        <p>A1-A2 GRAMMAR</p>
+                    </div>
+                    <div class="region"> 
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="">A1-A2</a>
+                            </li>
+                            <li>
+                                >
+                                <a href="./Grammara.html">GRAMMAR A</a>
+                            </li>
+                            <li>
+                                >Tính từ và giới từ
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-grammar">
+                        
+                        <div class="grammar-name">
+                            Tính từ và giới từ
+                        </div>
+                            <img class="grammar-img" src="./IMAGES/Grammar/grammar1.jpg" alt="Grammar">
+                        
+                        <div class="explanation">
+                            <h2>Grammar explanation</h2>
+                            <p>Một số tính từ đi với giới từ nhất định. Không có quy tắc ngữ pháp nào cho giới từ nào được sử dụng với tính từ nào, vì vậy bạn nên cố gắng học chúng cùng nhau. Để giúp bạn làm điều này, hãy viết từ vựng mới vào sổ tay của bạn thành một câu hoặc cụm từ.</p>
+                            <p>Tuy nhiên, có một số mẫu có thể giúp bạn. Chúng ta hãy nhìn vào chúng trước. Hãy nhớ rằng một giới từ được theo sau bởi một danh từ</p>
+                            <h3>Với
+                                <em>at</em>
+                            </h3>
+                            <p>Chúng ta sử dụng
+                                <em>
+                                    at
+                                </em>
+                                 với các tính từ như
+                                <em>
+                                    good
+                                </em>
+                                    /
+                                <em>
+                                    bad
+                                </em>
+                                    /
+                                <em>
+                                    amazing
+                                </em>
+                                    /
+                                <em>
+                                    terrible,...
+                                </em>
+                                v.v để nói về kỹ năng và khả năng.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        He's really
+                                        <strong>good at </strong>
+                                        English.
+                                        <br>She's
+                                        <strong>amazing at</strong>
+                                        the piano.
+                                        <br>They're 
+                                        <strong>
+                                        terrible at
+                                        </strong> 
+                                        organising anything.
+                                        <br>I'm not very 
+                                        <strong>
+                                        good at
+                                        </strong> 
+                                        drawing.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <h3>Với
+                                <em>about</em>
+                            </h3>
+                            <p>Chúng ta thường sử dụng
+                                <em>
+                                    about
+                                </em>
+                                với các tính từ chỉ cảm giác như
+                                <em>
+                                    angry
+                                </em>
+                                    /
+                                <em>
+                                    excited
+                                </em>
+                                    /
+                                <em>
+                                    happy
+                                </em>
+                                    /
+                                <em>
+                                    worried,...
+                                </em>
+                                v.v để giải thích điều gì đang gây ra cảm giác đó.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        I'm
+                                        <strong>angry about</strong>
+                                        the decision.
+                                        <br>He's
+                                        <strong>nervous about</strong>
+                                        the presentation.
+                                        <br>She's 
+                                        <strong>
+                                        excited about
+                                        </strong> 
+                                        the new job.
+                                        <br>They were 
+                                        <strong>
+                                        worried about
+                                        </strong> 
+                                        the exam.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <h3>Với
+                                <em>of</em>
+                            </h3>
+                            <p>Tuy nhiên, đôi khi chúng ta sử dụng
+                                <em>
+                                    of
+                                </em>
+                                với cảm xúc.
+                                
+                            </p>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        She was
+                                        <strong>afraid of </strong>
+                                        telling her mum.
+                                        <br>I'm
+                                        <strong>frightened of</strong>
+                                        having an accident..
+                                        <br>He's 
+                                        <strong>
+                                        scared of
+                                        </strong> 
+                                        flying.
+                                        <br>You should be
+                                        <strong>
+                                            proud of
+                                        </strong> 
+                                        your progress.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <h3>Với
+                                <em>to</em>
+                            </h3>
+                            <p>Chúng ta có thể sử dụng 
+                                <em>
+                                    to
+                                </em>
+                                để thể hiện sự liên kết giữa mọi người hoặc mọi vật.
+                                
+                            </p>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        He's
+                                        <strong>married to</strong>
+                                        the director.
+                                        <br>I'm
+                                        <strong>addicted</strong>
+                                        to my phone.
+                                        <br>I'm
+                                        <strong>
+                                        allergic
+                                        </strong> 
+                                        to nuts.
+                                        <br>It's
+                                        <strong>
+                                        similar
+                                        </strong> 
+                                        to the old one.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <p>Chúng ta cũng có thể dùng
+                                <em>
+                                    to
+                                </em>
+                                để nói về hành vi của một người nào đó đối với người khác.
+                                
+                            </p>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        They were really
+                                        <strong>friendly to</strong>
+                                        me.
+                                        <br>Was he
+                                        <strong>nice to</strong>
+                                        you?
+                                        <br>He is always
+                                        <strong>
+                                        polite to
+                                        </strong> 
+                                        everyone.
+                                        <br>She was very
+                                        <strong>
+                                        rude to 
+                                        </strong> 
+                                        the waitress.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <h3>Với
+                                <em>for</em>
+                            </h3>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        Exercise is
+                                        <strong>good for</strong>
+                                        you.
+                                        <br>Stress 
+                                        <strong>is bad</strong>
+                                        for you.
+                                        <br>The town is 
+                                        <strong>
+                                        famous for
+                                        </strong> 
+                                        its cheese.
+                                        <br>I'm 
+                                        <strong>
+                                        responsible for
+                                        </strong> 
+                                        the financial side of the business.
+                                    </em>
+                                </p>
+                            </blockquote>
+                            <h3>Với
+                                <em>in</em>
+                            </h3>
+                            <blockquote>
+                                <p>
+                                    <em>
+                                        She's 
+                                        <strong>interested</strong>
+                                        in the project.
+                                        <br>They want someone who's
+                                        <strong>experienced</strong>
+                                        in design.
+                                        <br>I didn't want to get 
+                                        <strong>
+                                        involved in
+                                        </strong> 
+                                        the argument.
+                                    </em>
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------------Footer----------------------------------------- -->
+    <div class="footer-distributed">
+        <div class="footer-left">  
+            <h3>English<span>Pro</span></h3>  
+            <p class="footer-links">
+                <a href="#" class="link-1">Trang chủ</a>            
+                <a href="#">Giới thiệu</a>          
+                <a href="#">Học</a>          
+                <a href="#">Kiểm tra</a>            
+                <a href="#">Từ điển</a>             
+            </p>
+            <p class="footer-company-name">Bản quyền thuộc về: Hứa Chí Cường, Nguyễn Quang Long, Nguyễn Tùng Huy</p>
+        </div>
+  
+        <div class="footer-center">
+            <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>100 Sài Gòn</span>TP. Hồ Chí Minh</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>999999999</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">abcabc@gmail.com</a></p>
+            </div>
+        </div>
+  
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <span>Xin chào</span>
+            Xin chào Xin chào Xin chào
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a> 
+            </div> 
+        </div>
+    </div>
+    
+    <!-- -------------------------------------JavaScript----------------------------------------- -->
+    <script src="JAVASCRIPT/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    
+    <script> 
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        });
+
+        /* ---------- Các chức năng của Framework Slider ----------*/
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout: 3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    </script>
+    
+</body>
+</html>

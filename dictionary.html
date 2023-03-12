@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/dictionary2.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <link href="/fontawesome-free-6.1.1/css/all.css" rel="stylesheet">
+    <title>English Pro | Tra từ</title>
+</head>
+<body>
+    <!-- -------------------------------------Header----------------------------------------- -->
+  <section class="top">
+    <div class="container">
+        <div class="row">
+            
+            <!-- ----------Logo---------- -->
+            <div class="top-logo">
+                <a href="index.php"> <img src="./images/logo.png" alt=""alt="Live online classes" loading="lazy" typeof="foaf:Image" class="img-responsive"> </a>
+            </div>
+
+            <!-- ----------MENU---------- -->
+            <div class="top-menu-items">
+                
+                    <!-- ----------GIỚI THIỆU---------- -->
+                    <li> <a href="introduce.html">Giới thiệu</a>
+                        <!-- <ul class="top-menu-item">
+                            <li> <a href="">VỀ CHÚNG TÔI</a> </li>
+                            <li> <a href="">LIÊN HỆ</a> </li>
+                        </ul> -->
+                    </li>
+
+                    <!-- ----------DANH MỤC HỌC---------- -->
+                    <li> <a href="<?php echo web_root; ?>index.php?q=lesson"><i class="icon-list-alt"></i>Học</a>
+                    </li>
+
+                    <!-- ----------DANH MỤC KIỂM TRA---------- -->
+                    <li> <a href="<?php echo web_root; ?>index.php?q=exercises"><i class="icon-list-alt"></i>Kiểm tra</a>
+                    </li>
+
+                    <!-- ----------TẢI VỀ---------- -->
+                    <li> <a href="<?php echo web_root; ?>index.php?q=download"><i class="icon-download"></i>Tải về</a> </li>
+
+                    <!-- ----------TỪ ĐIỂN---------- -->
+                    <li> <a href="dictionary.html" style="color: red;">Tra từ</a>
+                    
+                    <!-- ----------ĐĂNG XUẤT---------- -->
+                    <div class="logsign-top">
+                        <li>
+                            <!-- <a href="login.html">ĐĂNG NHẬP</a> -->
+                            <a href="logout.php"><i class="icon-logout"></i> Logout</a>
+                        </li>
+                        <li>
+                            <!-- <a href="sign-in.html">ĐĂNG KÍ</a> -->
+                        </li>
+                    </div>
+                    <!-- ----------Tìm kiếm---------- -->
+                    <div class="top-menu-icons">
+                            <li>
+                                <input type="text" placeholder="Tìm kiếm">
+                                <i class="fas fa-search"></i>
+                            </li>
+
+                            <li>
+                                <a href="dictionary.php">
+                                    <i class="fa-solid fa-book"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                            <!-- <a href="login.html">ĐĂNG NHẬP</a> -->
+                            <a href="logout.php"><i class="icon-logout"></i> Logout</a>
+                        </li>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- -------------------------------------Dictionary------------------------------------------ -->
+    <section class="dictionary">
+        <div class="container">
+            <div class="row2">
+                <div class="offer">
+                    <div class="small-container">
+                        <div class="row3">
+                            <div class="col-2">
+                                <img src="./IMAGES/pr.jpeg" alt="offer-img">
+                            </div>
+        
+                            <div class="col-2">
+                                <p></p>
+                                <h1>Tra cứu từ vựng chính xác</h1>
+                                <small>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a neque volutpat, elementum mi egestas, commodo purus. Donec efficitur ligula ex, nec blandit dolor blandit ac. Nulla aliquam lacus tincidunt euismod vulputate. Nulla vel lacus sapien. Etiam dictum ante ex, vitae sollicitudin enim semper eget. Suspendisse sed dignissim est. Mauris non ultrices mauris. Pellentesque mi neque, vestibulum a nibh a, cursus posuere est. Nunc dictum mi placerat felis tristique sagittis. Donec augue sapien, lobortis vel dui non, egestas molestie enim. Mauris tempus, leo vitae facilisis facilisis, risus purus ultrices justo, sed maximus enim dui sed turpis.
+                                </small>
+                                <div class="button">
+                                    <!-- Cách 1: -->
+                                    <a href="#" class="btn">Kéo xuống để đọc</a>
+        
+                                    <!-- Cách 2: -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dictionary-overview1">
+                    <div class="container-dictionary">
+                        <div class="wrapper-dictionary">
+                            <div class="text-input">
+                                <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+                                <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+                            </div>
+
+                            <ul class="controls">
+                                <li class="row4 from">
+                                    <div class="icons">
+                                        <i id="from" class="fas fa-volume-up"></i>
+                                        <i id="from" class="fas fa-copy"></i>
+                                    </div>
+                                    <select></select>
+                                </li>
+
+                                <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+
+                                <li class="row4 to">
+                                    <select></select>
+                                    <div class="icons">
+                                        <i id="to" class="fas fa-volume-up"></i>
+                                        <i id="to" class="fas fa-copy"></i>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            
+                        </div>
+                        <button>Tìm kiếm</button>
+                    </div>
+                </div>
+
+                <div class="dictionary-bottom">
+                    <div class="content-top">
+                        <div class="container-overview">
+                            <h1 class="section-label"> Title is here</h1>
+                            <p>Từ điển bab.la là người bạn đồng hành hoàn hảo trong suốt hành trình học ngoại ngữ của bạn. Cho dù bạn mới bắt đầu học một ngôn ngữ mới hay là một chuyên gia ngôn ngữ, từ điển của chúng tôi sẽ đáp ứng nhu cầu dịch thuật của bạn. Chúng tôi biết rằng việc lựa chọn bản dịch phù hợp có thể rất khó khăn. Vì lý do này, từ điển của chúng tôi chứa đầy các từ đồng nghĩa, ví dụ và câu ngữ cảnh để xem các từ được sử dụng như thế nào trong các tình huống thực tế. Từ điển bab.la là một nguồn ngôn ngữ thiết yếu cho cuộc sống đa ngôn ngữ của bạn. Đừng quên bản dịch - hãy sử dụng từ điển bab.la và tìm bản dịch phù hợp nhất cho mọi trường hợp.</p>
+                        </div>
+                    </div>
+
+                    <div class="teaser-bottom">
+                        <div class="teaser-bottom-left">
+                            <div class="content">
+                                <a href="/grammar/" class="container">
+                                    <span class="section-label">Grammar</span>
+                                    <span class="teaser-image" style="background-image:url(https://s3-eu-west-1.amazonaws.com/com.idmgroup.lab.images.prod/img/teasers/teaser-grammar.jpg) !important;"></span>
+                                    <span class="teaser-header">Come and ride the Grammar Train!</span>
+                                    <span class="teaser-text">Grammar lessons to help you learn the nitty gritty of a language.</span>
+                                    <!-- <span class="teaser-eyecatcher">Start learning<span class="material-icons"></span></span> -->
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="teaser-bottom-right">
+                            <div class="content">
+                                <a href="/grammar/" class="container">
+                                    <span class="section-label">Vocabulary</span>
+                                    <span class="teaser-image" style="background-image:url(https://s3-eu-west-1.amazonaws.com/com.idmgroup.lab.images.prod/img/teasers/teaser-grammar.jpg) !important;"></span>
+                                    <span class="teaser-header">Learn more Vocab</span>
+                                    <span class="teaser-text">Vocab lessons to help you learn the nitty gritty of a language.</span>
+                                    <!-- <span class="teaser-eyecatcher">Start learning<span class="material-icons"></span></span> -->
+                                </a>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101288849306095");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <!-- -------------------------------------Footer----------------------------------------- -->
+    <div class="footer-distributed">
+        <div class="footer-left">  
+            <h3>English<span>Pro</span></h3>  
+            <p class="footer-links">
+                <a href="#" class="link-1">Trang chủ</a>            
+                <a href="#">Giới thiệu</a>          
+                <a href="#">Học</a>          
+                <a href="#">Kiểm tra</a>            
+                <a href="#">Từ điển</a>             
+            </p>
+            <p class="footer-company-name">Bản quyền thuộc về: Hứa Chí Cường, Nguyễn Quang Long, Nguyễn Tùng Huy</p>
+        </div>
+  
+        <div class="footer-center">
+            <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>100 Sài Gòn</span>TP. Hồ Chí Minh</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>999999999</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">abcabc@gmail.com</a></p>
+            </div>
+        </div>
+  
+        <div class="footer-right">
+            <p class="footer-company-about">
+            <span>Xin chào</span>
+            Xin chào Xin chào Xin chào
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a> 
+            </div> 
+        </div>
+    </div>
+
+    <!-- -------------------------------------JavaScript----------------------------------------- -->
+    <script src="JAVASCRIPT/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/langue.js"></script>
+    <script src="js/dictionary.js"></script>
+    <script> 
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        });
+
+        /* ---------- Các chức năng của Framework Slider ----------*/
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout: 3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    </script>
+    
+</body>
+</html>
